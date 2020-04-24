@@ -61,7 +61,7 @@
 		text-decoration: none;
 		border-bottom: 1px solid $primary-green-color;
 		padding: 3px;
-		transition: all;
+		transition: transform 500ms;
 	}
 
 	&:hover {
@@ -69,10 +69,12 @@
 		background-color: $primary-green-color;
 		box-shadow: 0 1rem 2rem rgba($color-black, .15);
 		transform: translateY(-2px);
+		transition: transform 500ms;
 	}
 
 	&:active {
 		box-shadow: 0 0.5rem 1rem rgba($color-black, .15);
 		transform: translateY(0);
+		transition: transform 500ms;
 	}
 }
